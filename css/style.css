@@ -53,8 +53,6 @@ body {
   width: 1200px;
   height: 120px;
   box-sizing: border-box;
-  border: 1px #f00 solid;
-  clear: both;
   background-color: #033048;
 
 }
@@ -94,10 +92,45 @@ li {
   color: #f9e42e;
 }
 
+.content {
+  width: 1200px;
+  box-sizing: border-box;
+  padding-top: 50px;
 
+}
 
+aside {
+  width: 350px;
+  float: right;
+  border: 1px #000 solid;
 
+}
 
+.posts {
+  width: 820px;
+  float: left;
+  border: 1px #000 solid;
+  scroll: auto;
+
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #033048;
+  padding-bottom: 20px;
+}
+
+.categories li {
+  font-size: 24px;
+  font-weight: 300;
+  color: #033048;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+
+}
 
 
 
@@ -144,14 +177,7 @@ h2 {
 
 }
 
-h3 {
-  display: block;
-  font-weight: 600;
-  font-size: 40px;
-  color: #033048;
-  padding-top: 100px;
-  padding-bottom: 25px;
-}
+
 
 p {
   display: block;
