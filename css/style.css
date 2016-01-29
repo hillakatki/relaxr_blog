@@ -1,0 +1,249 @@
+/*
+Project Name: Relaxr Blog
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.fl {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+  background-image: url(../images/header_bg.jpg);
+  background-repeat: no-repeat;
+  font-family: 'Open Sans', Arial, sans-serif;
+
+}
+
+.navigation {
+  width: 1200px;
+  height: 120px;
+  box-sizing: border-box;
+  border: 1px #f00 solid;
+  clear: both;
+  background-color: #033048;
+
+}
+
+.logo {
+  width: 350px;
+  height: 120px;
+  box-sizing: border-box;
+  float: left;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  padding-left: 120px;
+  padding-top: 30px;
+  color: #fff;
+}
+
+
+nav {
+  width: 840px;
+  box-sizing: border-box;
+  float: right;
+
+}
+
+li {
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 55px;
+  margin-top: 45px;
+  float: right;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f9e42e;
+}
+
+
+
+
+
+
+
+
+
+----------------------------
+.top {
+  color: #FFF;
+  width: 1200px;
+  height: 700px;
+}
+
+
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.top-button {
+  display: block;
+  font-weight: 800;
+  font-size: 28px;
+  border-radius: 5px;
+  width: 250px;
+  height: 60px;
+  background-color: #f9e42e;
+  text-align: center;
+  text-decoration: none;
+  color: #033048;
+  margin-left: 475px;
+  margin-top: 90px;
+  padding: 15px;
+
+}
+
+.benefits {
+  display: block;
+  background-color: #f0efef;
+  width: 1200px; 
+  height: 620px;
+  padding-left: 125px;
+
+}
+
+h3 {
+  display: block;
+  font-weight: 600;
+  font-size: 40px;
+  color: #033048;
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+
+p {
+  display: block;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 38px;
+  color: #606161;
+  width: 625px;
+  padding-bottom: 50px;
+}
+
+
+
+.testimonial {
+  display: block;
+  background-image: url(../images/testimonial_bg.jpg);
+  width: 1200px;
+  height: 394px;
+  color: #FFF;
+  text-align: center;
+}
+
+.quote {
+  display: block;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 50px;
+  padding-top: 75px;
+  padding-bottom: 10px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.attribution {
+  display: block;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.sign-up {
+  display: block;
+  width: 1200px;
+  height: 120px;
+  background-color: #f9e42e;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.sign-up-button {
+  display: block;
+  font-weight: 800;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 325px;
+  height: 60px;
+  background-color: #033048;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  margin-left: 425px;
+  padding: 17px;
+ 
+}
+
+footer {
+  width: 1200px;
+  text-align: center;
+  background-color: #121212;
+  height: 350px;
+}
+
+.share-tools {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 75px;
+}
+
+.footer-logo {
+  padding-left: 0px;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  color: #f9e42e;
+}
+
+.copyright {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
