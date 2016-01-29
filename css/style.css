@@ -72,6 +72,7 @@ h1 {
   color: #fff;
 }
 
+a { text-decoration: none;}
 
 nav {
   width: 840px;
@@ -97,24 +98,65 @@ li {
   box-sizing: border-box;
   padding-top: 50px;
   background-color: #f0efef;
+}
 
+h2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #033048;
+  padding-bottom: 25px;
+}
+
+.posts-all {
+  width: 820px;
+  float: left;
+  padding-left: 120px;
+  scroll: auto;
+
+}
+
+
+.post {
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  border-bottom: 1px #000 solid;
+}
+
+.post p {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 300;
+  color: #606161;
+  padding-top: 25px;
+}
+
+.post p:first-letter { 
+  font-size: 75px;
+  font-weight: 600;
+  float: left;
+  padding-right: 10px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.post a {
+  display: block;
+  padding-top: 50px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+  color: #033048;
+  text-align: right;
 }
 
 aside {
   width: 350px;
   float: right;
-  border: 1px #000 solid;
   background-color: #f0efef;
-
 }
 
-.posts {
-  width: 820px;
-  float: left;
-  border: 1px #000 solid;
-  scroll: auto;
 
-}
 
 h3 {
   font-weight: 800;
@@ -149,84 +191,10 @@ h3 {
   font-size: 22px;
   font-weight: 600;
   color: #033048;
-  text-decoration: none;
 }
 
 .ad-unit { padding-top: 50px;}
 
-
-----------------------------
-.top {
-  color: #FFF;
-  width: 1200px;
-  height: 700px;
-}
-
-
-
-h2 {
-  font-size: 48px;
-  font-weight: 600;
-  text-align: center;
-  padding-top: 120px;
-}
-
-.top-button {
-  display: block;
-  font-weight: 800;
-  font-size: 28px;
-  border-radius: 5px;
-  width: 250px;
-  height: 60px;
-  background-color: #f9e42e;
-  text-align: center;
-  text-decoration: none;
-  color: #033048;
-  margin-left: 475px;
-  margin-top: 90px;
-  padding: 15px;
-
-}
-
-.benefits {
-  display: block;
-  background-color: #f0efef;
-  width: 1200px; 
-  height: 620px;
-  padding-left: 125px;
-
-}
-
-
-
-
-.testimonial {
-  display: block;
-  background-image: url(../images/testimonial_bg.jpg);
-  width: 1200px;
-  height: 394px;
-  color: #FFF;
-  text-align: center;
-}
-
-.quote {
-  display: block;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 36px;
-  line-height: 50px;
-  padding-top: 75px;
-  padding-bottom: 10px;
-  padding-left: 300px;
-  padding-right: 300px;
-}
-
-.attribution {
-  display: block;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 50px;
-}
 
 .sign-up {
   display: block;
