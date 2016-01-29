@@ -96,6 +96,7 @@ li {
   width: 1200px;
   box-sizing: border-box;
   padding-top: 50px;
+  background-color: #f0efef;
 
 }
 
@@ -103,6 +104,7 @@ aside {
   width: 350px;
   float: right;
   border: 1px #000 solid;
+  background-color: #f0efef;
 
 }
 
@@ -128,11 +130,29 @@ h3 {
   float: none;
   margin: 0px;
   padding: 0px;
-  height: 30px;
-
+  height: 34px;
 }
 
+.about {
+  padding-top: 40px;
+  padding-right: 100px;
+}
 
+.about p {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #033048;
+}
+
+.about a {
+  font-size: 22px;
+  font-weight: 600;
+  color: #033048;
+  text-decoration: none;
+}
+
+.ad-unit { padding-top: 50px;}
 
 
 ----------------------------
@@ -177,17 +197,6 @@ h2 {
 
 }
 
-
-
-p {
-  display: block;
-  font-weight: 300;
-  font-size: 26px;
-  line-height: 38px;
-  color: #606161;
-  width: 625px;
-  padding-bottom: 50px;
-}
 
 
 
