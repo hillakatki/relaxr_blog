@@ -132,16 +132,17 @@ h2 {
   padding-top: 25px;
 }
 
-.post p:first-letter { 
+.post p.first:first-letter { 
   font-size: 75px;
   font-weight: 600;
   float: left;
   padding-right: 10px;
   padding-top: 25px;
   padding-bottom: 20px;
+  border: #f00;
 }
 
-.post a {
+.post .read-more {
   display: block;
   padding-top: 50px;
   font-size: 24px;
@@ -149,6 +150,18 @@ h2 {
   font-weight: 600;
   color: #033048;
   text-align: right;
+  cursor: pointer;
+}
+
+.post .read-less {
+  display: block;
+  padding-top: 50px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+  color: #033048;
+  text-align: right;
+  cursor: pointer;
 }
 
 aside {
@@ -219,6 +232,7 @@ h3 {
   color: #FFF;
   margin-left: 425px;
   padding: 17px;
+  cursor: pointer;
  
 }
 
