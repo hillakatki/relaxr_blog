@@ -30,3 +30,10 @@ $('#2nd-read-less').on('click', function() {
 	$('#2nd-read-less').hide();
 	$('#2nd-read-more').show();
 });
+
+$('.more-about').hide();
+
+$('.learn-more').on('click', function() {
+	$('.more-about').slideToggle();
+	$('.learn-more').hide();
+});

@@ -201,10 +201,11 @@ h3 {
   color: #033048;
 }
 
-.about a {
+.about .learn-more {
   font-size: 22px;
   font-weight: 600;
   color: #033048;
+  cursor: pointer;
 }
 
 .ad-unit { padding-top: 50px;}
